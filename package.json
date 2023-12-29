@@ -4,9 +4,10 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
-    "@fortawesome/react-fontawesome": "^0.1.17",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.1.19",
     "dotenv": "^16.0.3",
     "googleapis": "^109.0.1",
     "moment": "^2.29.4",
@@ -17,7 +18,8 @@
     "react-big-calendar": "^1.8.4",
     "react-countdown": "^2.3.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "yarn": "^1.22.21"
   },
   "scripts": {
     "start": "next dev",
@@ -31,6 +33,7 @@
     "lint-fix": "eslint --fix \"**/*.js\" && stylelint --fix \"**/*.css\" \"**/*.scss\"",
     "reg": "node scripts/recurring-event-generator.mjs",
     "seg": "node scripts/single-event-generator.mjs",
+    "ofp": "node scripts/officer-parser.mjs",
     "test": "jest --env=jsdom"
   },
   "eslintConfig": {
@@ -67,7 +70,7 @@
     "eslint": "^7.32.0",
     "eslint-config-next": "^13.4.2",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.33.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^29.7.0",
